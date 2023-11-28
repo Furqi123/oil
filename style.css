@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #fff;
+    /* border-bottom: solid 5px black; */
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-nav li{
+    width: 150px;
+}
+
+.navbar-brand img{
+    width: 130px;
+}
+
+/* .carousel-item img{
+    height: 690px !important;
+    object-fit: contain;
+    width: 100% !important;
+} */
+
+.w-100{
+    width: 100% !important;
+}
+
+.d-block{
+    display: block;
+}
+
+.about-card{
+    border: none !important;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about p {
+    text-align: center;
+    font-size: 14px !important;
+    color: black;
+}
+
+.about h3{
+    color: #81bb27;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.about button{
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    color: #81bb27;
+    border: solid 2px #81bb27;
+}
+
+.about button:hover{
+    background-color: #81bb27;
+    color: #fff;
+    transition: ease 1s;
+}
+
+.product-card img{
+   width: 200px;
+   margin: auto;
+}
+
+.product-card{
+    /* border: none; */
+    text-align: center;
+}
+
+.product-card button{
+    background-color: #81bb27;
+    color: #fff;
+}
+
+.view {
+
+    display: flex;
+    justify-content: center;
+}
+
+.view .btn{
+    background-color: #81bb27;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+}
+.product-btn{
+    background-color: #81bb27;
+    color: #fff;
+    width: 140px;
+}
+
+
+.footer-product a{
+color: #808080;
+}
+
+
+.footer-links a{
+    color: #808080
+}
+
+
+
+.page-show{
+    background-color: #81bb27;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page-show h2{
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+}
+
+
+.contact-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    border: 2px solid #dfd8d8;
+    
+}
+
+.form button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+.form input::placeholder{
+    padding-left: 20px;
+}
+
+
+#Message{
+margin-bottom: 20px;
+border: 2px solid #dfd8d8;
+}
+
+#Message::placeholder{
+    padding-left: 20px;
+}
+
+
+
+#Message:focus{
+    outline: 0px;
+}
+
+
+.form input:focus{
+   outline: 0px;
+}
+
+
+.email h6{
+    color: black;
+    font-size: 20px;
+}
+
+.call h6{
+    color: black;
+    font-size: 20px;
+}
+
+.email h6{
+    color: black;
+    font-size: 20px;
+}
+
+.whatsup h6{
+    color: black;
+    font-size: 20px;
+}
+.contact-detail{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:735px) {
+.contact-main{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+}
+
+
+.form input{
+    width: 20em;
+    height: 35px;
+   
+}
+
+#Message{
+    height: 5em;
+    width: 20em;
+}
+
+}
+
+@media only screen and (max-width:319px) {
+
+    .form input{
+        width: 15em;
+        height: 30px;
+       
+    }
+    
+    #Message{
+        height: 5em;
+        width: 15em;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:619px) {
+  
+    
+    .about p{
+     font-size: 8px !important;
+    
+    }
+
+    .about h3{
+   font-size: 15px;
+    }
+
+    /* .about button{
+        width: 90px;
+        padding: 5px;
+    } */
+}
