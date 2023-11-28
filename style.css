@@ -139,8 +139,7 @@ color: #808080;
 
 .page-show h2{
     font-size: 45px;
-    font-weight: bold;
-    border-bottom: 4px solid white;
+    /* font-weight: bold; */
 }
 
 
@@ -229,8 +228,20 @@ border: 2px solid #dfd8d8;
 
 
 
+.min{
+    text-align: left;
+}
 
 
+@media only screen and (max-width:767px) {
+    .benefits-img{
+        width: 200px;
+    }
+
+    .page-show h2{
+        font-size: 30px;
+    }
+}
 
 @media only screen and (max-width:735px) {
 .contact-main{
